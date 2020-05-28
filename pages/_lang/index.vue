@@ -19,6 +19,7 @@
         <v-col cols="12" xs="12" sm="12" md="6" lg="5">
           <v-lazy-image 
           width="450" 
+          alt="Imagem"
           :src="require('@/assets/img/1.webp')" 
           src-placeholder="https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-image_large.png?v=1530129081"
           aspect-ratio="1" />
@@ -31,6 +32,7 @@
         <v-col cols="12" xs="12" sm="12" md="6" lg="5">
           <v-lazy-image
            width="450" 
+          alt="Imagem"
            :src="require('@/assets/img/2.webp')" 
            src-placeholder="https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-image_large.png?v=1530129081"
            aspect-ratio="1" />
@@ -66,6 +68,7 @@
         <v-col cols="12" xs="12" sm="12" md="6" lg="5">
           <v-lazy-image 
           width="450" 
+          alt="Imagem"
           :src="require('@/assets/img/3.webp')" 
           src-placeholder="https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-image_large.png?v=1530129081"
           aspect-ratio="1" />

@@ -3,7 +3,8 @@
     <v-container>
       <v-row no-gutters align="center" justify="center" class="pt-12">
         <v-col cols="12" xs="12" sm="8" md="7" lg="5">
-          <v-img
+          <v-lazy-image
+          alt="Imagem"
             src="https://media.giphy.com/media/xTiN0L7EW5trfOvEk0/giphy.gif"
             src-placeholder="https://media.giphy.com/media/xTiN0L7EW5trfOvEk0/giphy-downsized.gif"
             max-width="450px"
