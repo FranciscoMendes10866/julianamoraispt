@@ -1,0 +1,80 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "login": "Login",
+    "menu": "More",
+    "pt": "PT",
+    "en": "EN"
+  },
+  "home": {
+    "pageName": "Home",
+    "button": "know more",
+    "sub_title_01": "Healthy life",
+    "main_title_01": "Let's find the best together for you!",
+    "body_01": "Training and nutritional plans customized by a certified professional.",
+    "sub_title_02": "Your turn to change",
+    "main_title_02": "Has numerous benefits in the practice of sport",
+    "body_02": "Training and nutritional plans customized by a certified professional.",
+    "sub_title_03": "Let's make a difference",
+    "main_title_03": "Training professional, body and mind",
+    "percentage": "87%",
+    "body_03": " of people who want to transform their bodies fail ..."
+  },
+  "about": {
+    "pageName": "About",
+    "title": "Frequently Asked Questions",
+    "body": "The sense of training is to feel more energetic.<br>Exercise stimulates the body, forcing it to adapt.",
+    "button": "know more",
+    "sub_title_01": "What do I do",
+    "main_title_01": "More energy",
+    "body_01": "The sense of training is to feel more energized. Exercise stimulates the body, forcing it to adapt, not only to look more athletic on the outside, but also to look more elegant and positive on the inside.",
+    "sub_title_02": "What do I do",
+    "main_title_02": "Have an improvement in your confidence",
+    "body_02": "The side effects of aging can leave you unsatisfied with your appearance.<br><br>My workouts and nutritional plans will help you get the look you want and feel confident.",
+    "sub_title_03": "What do I do",
+    "main_title_03": "Quality of life",
+    "body_03": "Training can help you by providing the fitness and energy to play with children, to play sports and to feel refreshed after a day at work."
+  },
+  "services": {
+    "pageName": "Services",
+    "button": "Contact now",
+    "sub_title_01": "Popular",
+    "main_title_01": "Personal Training",
+    "body_01": "The sense of training is to feel more energized. Exercise stimulates the body, forcing it to adapt, not only to look more athletic on the outside, but also to look more elegant and positive on the inside.",
+    "sub_title_02": "Popular",
+    "main_title_02": "HIT",
+    "body_02": "Training and nutritional plans customized by a certified professional.",
+    "sub_title_03": "Popular",
+    "main_title_03": "Personal Training DUO",
+    "body_03": "Training can help you by providing the fitness and energy to play with children, to play sports and to feel refreshed after a day at work."
+  },
+  "contact": {
+    "pageName": "Contact",
+    "title": "Contact",
+    "body": "The sense of training is to feel more energetic.<br>Exercise stimulates the body, forcing it to adapt.",
+    "button": "Send"
+  },
+  "newsletter": {
+    "pageName": "Home",
+    "button": "Subscribe",
+    "sub_title_01": "Newsletter",
+    "main_title_01": "It's time to exercise with my supervision",
+    "body_01": "Subscribe to my newsletter to receive news about promotions and new updates."
+  },
+  "faq": {
+    "pageName": "About",
+    "firstQuestion": "Is running the best option to go out and burn body fat?",
+    "firstAnswer": "Absolutely not! in fact, I was running out of muscle mass! Now I run and walk, jogging is a thing of the past for me and my clients!",
+    "secondQuestion": "Is it better to lift as much weight as possible?",
+    "secondAnswer": "Actually, no, there is a time for that, but I really lift my heaviest weights by losing body fat, to my surprise, I found that I could do weight training faster with just 30% of what I used to do by manipulating rest periods and rest intervals. repetition.",
+    "thirdQuestion": "Is breakfast the most important meal of the day?",
+    "thirdAnswer": "It may be true that your first meal of the day is the most important, but it doesn't have to be in the morning. I've used intermittent fasting three years ago to recover faster and get thinner, that means I don't eat my first meal until noon.",
+    "fourthQuestion": "Are food and sports supplements a necessity?",
+    "fourthAnswer": "Upon close inspection, many of the main supplements on the market were found to be little more than milk protein, sugar and preservatives. There is definitely a place for supplementation, but you must be careful not to be fooled by the hype!",
+    "fifthQuestion": "Is training two or three times a day like an athlete the best way to guarantee success?",
+    "fifthAnswer": "Not! This was pushing me more and more towards fatigue and, in fact, decreasing my results, I started training 3-4 times a week, decreased my workouts and got great results."
+  }
+}

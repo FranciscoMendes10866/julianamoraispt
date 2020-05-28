@@ -1,0 +1,80 @@
+{
+  "links": {
+    "home": "Página Principal",
+    "about": "Sobre",
+    "services": "Serviços",
+    "contact": "Contactar",
+    "login": "Entrar",
+    "menu": "Mais",
+    "pt": "PT",
+    "en": "EN"
+  },
+  "home": {
+    "pageName": "Página Principal",
+    "button": "Saiba mais",
+    "sub_title_01": "Vida saudável",
+    "main_title_01": "Vamos descobrir juntos o melhor para si!",
+    "body_01": "Planos de treino e nutricionais personalizados por uma profissional certificada.",
+    "sub_title_02": "A sua vez de mudar",
+    "main_title_02": "Tem inúmeros benefícios na prática do desporto",
+    "body_02": "Planos de treino e nutricionais personalizados por uma profissional certificada.",
+    "sub_title_03": "Vamos fazer a diferença",
+    "main_title_03": "Profissional de treino, corpo e mente",
+    "percentage": "87%",
+    "body_03": " das pessoas que desejam de transformar os seus corpos falham..."
+  },
+  "about": {
+    "pageName": "Sobre",
+    "title": "Perguntas Frequentes",
+    "body": "O sentido de treino é sentir-se com mais energia.<br>O exercício estimula o corpo, forçando-o a adaptar-se.",
+    "button": "Saiba mais",
+    "sub_title_01": "O que faço",
+    "main_title_01": "Mais energia",
+    "body_01": "O sentido de treino é sentir-se com mais energia. O exercício estimula o corpo, forçando-o a adaptar-se, não apenas a parecer mais atlético por fora, mas também parecer mais elegante e positivo por dentro.",
+    "sub_title_02": "O que faço",
+    "main_title_02": "Tenha um Melhora na sua confiança",
+    "body_02": "Os efeitos colaterais do envelhecimento podem deixá-lo insatisfeito com a sua aparência.<br><br>Os meus treinos e planos nutricionais vão ajudá-lo a obter a aparência que deseja e a sentir-se confiante.",
+    "sub_title_03": "O que faço",
+    "main_title_03": "Qualidade de vida",
+    "body_03": "O treino pode ajudá-lo fornecendo a aptidão e a energia para brincar com as crianças, para praticar desporto e para sentir-se renovado depois de um dia de trabalho."
+  },
+  "services": {
+    "pageName": "Serviços",
+    "button": "Contacte já",
+    "sub_title_01": "Popular",
+    "main_title_01": "Personal Training",
+    "body_01": "O sentido de treino é sentir-se com mais energia. O exercício estimula o corpo, forçando-o a adaptar-se, não apenas a parecer mais atlético por fora, mas também parecer mais elegante e positivo por dentro.",
+    "sub_title_02": "Popular",
+    "main_title_02": "HIT",
+    "body_02": "Planos de treino e nutricionais personalizados por uma profissional certificada.",
+    "sub_title_03": "Popular",
+    "main_title_03": "Personal Training DUO",
+    "body_03": "O treino pode ajudá-lo fornecendo a aptidão e a energia para brincar com as crianças, para praticar desporto e para sentir-se renovado depois de um dia de trabalho."
+  },
+  "contact": {
+    "pageName": "Contactar",
+    "title": "Contacto",
+    "body": "O sentido de treino é sentir-se com mais energia.<br>O exercício estimula o corpo, forçando-o a adaptar-se.",
+    "button": "Enviar"
+  },
+  "newsletter": {
+    "pageName": "Página Principal",
+    "button": "Inscrever-se",
+    "sub_title_01": "Newsletter",
+    "main_title_01": "É tempo para se exercitar com a minha supervisão",
+    "body_01": "Inscreva-se na minha newsletter para receber notícias sobre promoções e novas atualizações."
+  },
+  "faq": {
+    "pageName": "Sobre",
+    "firstQuestion": "Correr é a melhor opção para sair e queimar gordura corporal?",
+    "firstAnswer": "Absolutamente não! na verdade, eu estava ficando sem massa muscular! Agora eu corro e ando, fazer jogging é uma coisa do passado para mim e meus clientes!",
+    "secondQuestion": "É melhor levantar o máximo de peso possível?",
+    "secondAnswer": "Na verdade, não, há um tempo para isso, mas eu realmente levanto meus pesos mais pesados ao perder gordura corporal, para minha surpresa, descobri que podia fazer musculação mais rapidamente com apenas 30% do que costumava levantar manipulando períodos de descanso e intervalos de repetição.",
+    "thirdQuestion": "O pequeno almoço é a refeição mais importante do dia?",
+    "thirdAnswer": "Talvez seja verdade que sua primeira refeição do dia seja a mais importante, mas isso não precisa ser pela manhã. Eu já usei o jejum intermitente há três anos para me recuperar mais rápido e ficar mais magro, isso significa que não comer minha primeira refeição até o meio dia.",
+    "fourthQuestion": "Os suplementos alimentares e desportivos são uma necessidade?",
+    "fourthAnswer": "Sob uma inspeção minuciosa, verificou-se que muitos dos principais suplementos do mercado eram pouco mais que proteína do leite, açúcar e conservantes. Definitivamente, existe um lugar para suplementação, mas você deve ter cuidado para não ser enganado pelo hype!",
+    "fifthQuestion": "Treinar duas ou três vezes por dia como um atleta é a melhor maneira de garantir o sucesso?",
+    "fifthAnswer": "Não! Isso estava me empurrando cada vez mais para a fadiga e, na verdade, diminuindo meus resultados, comecei a treinar 3-4 vezes por semana, diminuí meus treinos e obtive ótimos resultados."
+  }
+}
