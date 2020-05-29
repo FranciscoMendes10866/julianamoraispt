@@ -55,6 +55,7 @@
 <script>
 import gql from 'graphql-tag'
 import navbar from '../components/Navbar'
+import BottomNav from '@/components/BottomNav'
 
 export default {
     head() {
@@ -78,8 +79,8 @@ export default {
   },
   components: {
       navbar,
-      Footer: () => import('@/components/Footer'),
-      BottomNav: () => import('@/components/BottomNav')
+      BottomNav,
+      Footer: () => import('@/components/Footer')
   }
 }
 </script>

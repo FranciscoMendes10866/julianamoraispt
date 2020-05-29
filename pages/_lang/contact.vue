@@ -76,6 +76,7 @@
 import { validationMixin } from 'vuelidate'
 import { required, minLength, maxLength, email } from 'vuelidate/lib/validators'
 import navbar from '@/components/Navbar'
+import BottomNav from '@/components/BottomNav'
 
 export default {
   mixins: [validationMixin],
@@ -162,8 +163,8 @@ export default {
   },
   components: {
       navbar,
-      Footer: () => import('@/components/Footer'),
-      BottomNav: () => import('@/components/BottomNav')
+      BottomNav,
+      Footer: () => import('@/components/Footer')
   }
 }
 </script>

@@ -95,13 +95,14 @@
 <script>
 import navbar from '@/components/Navbar'
 import VLazyImage from 'v-lazy-image'
+import BottomNav from '@/components/BottomNav'
 
 export default {
     components: {
       navbar,
       VLazyImage,
+      BottomNav,
       Footer: () => import('@/components/Footer'),
-      BottomNav: () => import('@/components/BottomNav'),
       FAQ: () => import('@/components/FAQ')
     },
     head() {
