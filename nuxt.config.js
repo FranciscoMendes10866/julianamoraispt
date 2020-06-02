@@ -68,7 +68,7 @@ module.exports = {
   */
   pwa: {
     icon: {
-      src: '@/static/logo-app.png',
+      src: '@/static/icon.png',
       type: 'image/png'
     },
     manifest: {
