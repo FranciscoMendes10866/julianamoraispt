@@ -14,7 +14,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      { rel: 'icon', type: 'image/webp', href: '/logo.webp' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap' }
     ]
   },
@@ -68,8 +68,8 @@ module.exports = {
   */
   pwa: {
     icon: {
-      src: '@/static/icon.png',
-      type: 'image/png'
+      src: '@/static/logo-app.webp',
+      type: 'image/webp'
     },
     manifest: {
       name: 'Juliana Morais PT',

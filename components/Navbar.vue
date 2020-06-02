@@ -2,7 +2,11 @@
   <div>
     <v-app-bar absolute color="transparent" elevation="0" class="px-12">
       <v-toolbar-title justify="center" align="center">
-        <v-img :src="require('@/static/favicon.png')" class="menu-logo" />
+        <v-img :src="require('@/static/logo.webp')" class="menu-logo hidden-sm-and-down" />
+        <v-img
+          :src="require('@/static/logo-horizontal.webp')"
+          class="menu-logo-horizontal hidden-md-and-up"
+        />
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -94,6 +98,9 @@
   font-weight: 700;
 }
 .menu-logo {
-  width: 50%;
+  width: 60%;
+}
+.menu-logo-horizontal {
+  width: 70%;
 }
 </style>
