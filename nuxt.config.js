@@ -31,7 +31,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/vue-social-sharing.js', ssr: false },
+    { src: '~/plugins/vue-social-sharing.js', ssr: true },
     { src: '~/plugins/vuelidate.js', ssr: false },
     { src: '~/plugins/i18n.js', ssr: true },
     { src: '~/plugins/v-lazy-image.js', ssr: false }
@@ -61,7 +61,7 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/apollo'
+    '@nuxtjs/apollo',
   ],
   /*
   ** PWA config
