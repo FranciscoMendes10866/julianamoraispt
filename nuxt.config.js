@@ -68,8 +68,8 @@ module.exports = {
   */
   pwa: {
     icon: {
-      src: '@/static/logo-app.webp',
-      type: 'image/webp'
+      src: '@/static/logo-app.png',
+      type: 'image/png'
     },
     manifest: {
       name: 'Juliana Morais PT',
