@@ -15,7 +15,7 @@ async function start() {
   // Init Nuxt.js
   const nuxt = new Nuxt(config)
 
-  const { host, port } = nuxt.options.server
+  const { host } = nuxt.options.server
 
   await nuxt.ready()
   // Build only in dev mode
@@ -40,7 +40,7 @@ async function start() {
   const routes = require('./routes/index')
   app.use('/api/v1', routes)
 
-
+const port = process.env.PORT
 
   // Give nuxt middleware to express
   app.use(nuxt.render)
