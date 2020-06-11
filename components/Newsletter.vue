@@ -59,6 +59,8 @@
 import { validationMixin } from 'vuelidate'
 import { required, minLength, maxLength, email } from 'vuelidate/lib/validators'
 
+const URL = process.env.NEWSLETTER
+
 export default {
   mixins: [validationMixin],
   data () {
@@ -83,7 +85,7 @@ export default {
         this.submitstatus = 'OK',
         this.loading = true,
         setTimeout(() => (this.loading = false), 3000),
-        this.$axios.post('/api/v1/mailchimp', {
+        this.$axios.post(URL, {
           firstName: this.firstName,
           lastName: this.lastName,
           email: this.email

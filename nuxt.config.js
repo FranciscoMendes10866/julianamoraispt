@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const colors = require('vuetify/es5/util/colors').default
 
 module.exports = {
@@ -62,6 +64,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/apollo',
+    '@nuxtjs/dotenv',
   ],
   /*
   ** PWA config
