@@ -78,8 +78,6 @@ import { required, minLength, maxLength, email } from 'vuelidate/lib/validators'
 import navbar from '@/components/Navbar'
 import BottomNav from '@/components/BottomNav'
 
-const URL = process.env.SENDGRID
-
 export default {
   mixins: [validationMixin],
   data () {
@@ -104,7 +102,7 @@ export default {
         this.submitstatus = 'OK',
         this.loading = true,
         setTimeout(() => (this.loading = false), 3000),
-        this.$axios.post(URL, {
+        this.$axios.post('/api/v1/mail', {
         to: 'avizinhadochico@gmail.com',
         from: this.email,
         subject: this.subject,
