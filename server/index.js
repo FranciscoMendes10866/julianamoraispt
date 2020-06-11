@@ -1,7 +1,10 @@
 const express = require('express')
 const consola = require('consola')
-const cors = require('cors')
 const bodyParser = require('body-parser')
+const cors = require('cors')
+const helmet = require('helmet')
+const rateLimit = require('express-rate-limit')
+const compression = require('compression')
 const { Nuxt, Builder } = require('nuxt')
 const app = express()
 
@@ -32,14 +35,21 @@ async function start() {
 
   //cors
   app.use(cors())
-
+  app.use(helmet())
+  app.use(
+    rateLimit({
+      windowMs: 15 * 60 * 1000, // 15 minutes
+      max: 100, // limit each IP to 100 requests per windowMs
+    })
+  )
 
   //routes
   const routes = require('./routes/index')
+  app.use(compression())
   app.use('/api/v1', routes)
 
-const port = process.env.PORT
-const host = process.env.HOST
+  const port = process.env.PORT
+  const host = process.env.HOST
 
   // Give nuxt middleware to express
   app.use(nuxt.render)
