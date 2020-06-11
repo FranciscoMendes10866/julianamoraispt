@@ -49,7 +49,7 @@ async function start() {
   app.use('/api/v1', routes)
 
   const port = process.env.PORT
-  const host = process.env.HOST
+  const host = process.env.APP_HOST
 
   // Give nuxt middleware to express
   app.use(nuxt.render)
