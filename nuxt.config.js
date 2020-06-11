@@ -7,7 +7,7 @@ module.exports = {
   */
   head: {
     titleTemplate: '%s  ',
-    title: 'Juliana Morais' || '',
+    title: 'Juliana Morais' || 'JU',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
