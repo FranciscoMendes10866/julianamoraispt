@@ -14,8 +14,7 @@
       </v-row>
       <v-row justify="center" align="center">
         <v-col cols="12 text-center">
-          <h1 class="title font-weight-medium">Página não encontrada.</h1>
-          <h1 class="title font-weight-medium">Ocorreu um erro.</h1>
+          <h1 class="title font-weight-medium">{{ pageNotFound }}</h1>
           <v-btn depressed outlined medium color="pink darken-1" class="mt-12" dark to="/">
             <span class="my-btn">Voltar</span>
             <v-icon medium right>mdi-home</v-icon>
@@ -31,10 +30,15 @@ import VLazyImage from 'v-lazy-image'
 
 export default {
   name: 'error-404',
+  data () {
+    return {
+      pageNotFound: 'Página não encontrada.'
+    }
+  },
   props: {
     error: {
       type: Object,
-      default: () => {},
+      default: null,
     },
   },
   components: {

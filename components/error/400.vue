@@ -5,8 +5,8 @@
         <v-col cols="12" xs="12" sm="8" md="7" lg="5">
           <v-lazy-image
             alt="Imagem"
-            src="https://media.giphy.com/media/65eA8KmwYyvdK/source.gif"
-            src-placeholder="https://media.giphy.com/media/65eA8KmwYyvdK/giphy.gif"
+            src="https://media.giphy.com/media/C4wlXJlgP2QhO/source.gif"
+            src-placeholder="https://media.giphy.com/media/C4wlXJlgP2QhO/giphy.gif"
             max-width="450px"
             aspect-ratio="1"
           />
@@ -14,7 +14,7 @@
       </v-row>
       <v-row justify="center" align="center">
         <v-col cols="12 text-center">
-          <h1 class="title font-weight-medium">{{ serverError }}</h1>
+          <h1 class="title font-weight-medium">{{ gotAnError }}</h1>
           <v-btn depressed outlined medium color="pink darken-1" class="mt-12" dark to="/">
             <span class="my-btn">Voltar</span>
             <v-icon medium right>mdi-home</v-icon>
@@ -29,10 +29,10 @@
 import VLazyImage from 'v-lazy-image'
 
 export default {
-  name: 'error-500',
+  name: 'error-400',
   data () {
     return {
-      serverError: 'Erro do servidor.'
+      gotAnError: 'Ocorreu um erro.'
     }
   },
   props: {

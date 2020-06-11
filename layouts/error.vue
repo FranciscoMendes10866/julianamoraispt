@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import error400 from '~/components/error/400.vue';
 import error404 from '~/components/error/404.vue';
 import error500 from '~/components/error/500.vue';
 
@@ -14,17 +15,19 @@ export default {
   props: {
     error: {
       type: Object,
-      default: () => {},
+      default: null,
     },
   },
   computed: {
     errorPage() {
       if (this.error.statusCode === 404) {
         return error404;
+      }  else if (this.error.statusCode === 500) {
+        return error500;
+      } else {
+        return error400;
       }
-      // catch everything else
-      return error500;
-    },
+    }
 }
 }
 </script>
