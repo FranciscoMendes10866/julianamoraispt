@@ -50,7 +50,7 @@
 
       <v-row no-gutters align="center" justify="space-around" class="mt-4">
         <v-col cols="12" xs="12" sm="9" md="8" lg="5">
-          <social-sharing url="https://juliana-morais-pt.netlify.app/" inline-template>
+          <social-sharing url="https://julianamoraispt.herokuapp.com/" inline-template>
             <div>
               <network network="facebook">
                 <v-btn depressed text small color="blue darken-2" dark>
