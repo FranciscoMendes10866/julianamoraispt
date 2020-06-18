@@ -14,7 +14,7 @@ Instalação das dependências do projeto
 npm install # ou yarn
 ```
 
-Iniciar o ambiente de desenvolvimento do backend em Node.js
+Iniciar o ambiente de desenvolvimento
 
 ```bash
 npm run dev # ou yarn dev
@@ -26,7 +26,7 @@ Compilar o projeto para ambiente de produção
 npm run build # ou yarn build
 ```
 
-Iniciar o ambiente de produção do backend em Node.js
+Iniciar o ambiente de produção
 
 ```bash
 npm start # ou yarn start
