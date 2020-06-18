@@ -1,22 +1,48 @@
-# Projeto Individual de Multimédia
-
-> Web App desenvolvida no âmbito da cadeira de Projeto Multimédia do Instituto Superior Miguel Torga.
+# Juliana Morais PT - WEB APP
 
 ## CLI
 
-``` bash
-# Instalar dependências
-$ npm install
+Package Manager utilizado
 
-# Comando da versão de desenvolvimento no localhost:3000
-$ npm run dev
-
-# Comando da versão de produção e o de arrancar o servidor
-$ npm run build
-$ npm run start
-
-# Comando para gerar o projeto estático
-$ npm run generate
+```bash
+npm # pode usar yarn mas elimine primeiro o package-lock.json
 ```
 
-Qualquer dúvida contacte a partir do seguinte email: [kikko_chico@live.com.pt]().
+Instalação das dependências do projeto
+
+```bash
+npm install # ou yarn
+```
+
+Iniciar o ambiente de desenvolvimento do backend em Node.js
+
+```bash
+npm run dev # ou yarn dev
+```
+
+Compilar o projeto para ambiente de produção
+
+```bash
+npm run build # ou yarn build
+```
+
+Iniciar o ambiente de produção do backend em Node.js
+
+```bash
+npm start # ou yarn start
+```
+
+Compilar o código para tornar o website estático
+
+```bash
+npm run generate # ou yarn generate
+```
+
+## Desenvolvido por:
+Francisco Morais Mendes
+
+email: (kikko_chico@live.com.pt)
+
+## Professor:
+Frederico Fonseca
+Rui Rodrigues
